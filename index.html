@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>All Country Details</title>
+</head>
+<body>
+    
+    <div class="container">
+        <h1>Total Country: <span id="total"></span></h1>
+
+       <div class="countries">
+        <table id="table">
+            <tr>
+                <th>#SI</th>
+                <th>Country</th>
+                <th>Population</th>
+                <th>Flag</th>
+                <th>Area</th>
+            </tr>
+        </table>
+        </div>
+
+     <!-- -------Pop UP ------------>
+        <div id="pop-up" class="popup">
+            <span onclick="cencel()" id="cencel"><i class="fa-solid fa-xmark"></i></span>
+            <h2>Bangladesh</h2>
+            <img src="img.jpg" alt="">
+            <ul id="details">
+            </ul>
+        </div>
+    </div>
+
+<script src="main.js"></script>
+</body>
+</html>
